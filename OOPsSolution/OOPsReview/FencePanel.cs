@@ -87,5 +87,21 @@ namespace OOPsReview
         //data is present and is of the right dztatype
 
         public double? Price { get; set; }
+
+        //constructors
+
+        //either you code your constructors or yuo omit your constructor
+        //if omit contructors than the sys will initialize your data member to the natural sys defaults for that data member datatype.
+        //if you code any constructor you are responsible for coding all constructor to be used by this class
+
+        //default
+        //simulates the sys initialization of your data
+        //default execute on a : new FencePanel()
+
+        public FencePanel ()
+        {
+            Height = 6.0;
+            Width = 8.0;
+        }
     }
 }
