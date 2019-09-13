@@ -25,7 +25,7 @@ namespace OOPsReview
             }
             if (Panel.Price ==null)
             {
-                throw new Exception("panel price is needed to create estimate")
+                throw new Exception("panel price is needed to create estimate");
             }
             else
             {
